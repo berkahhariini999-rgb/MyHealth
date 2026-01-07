@@ -17,6 +17,10 @@ struct HomeView: View {
                     //steps and exercise
                     //discover
                    TabViewContentView()
+                   StepAndExerciseView()
+                   DiscoverView()
+                
+                    
                 }
                 .padding()
                 
@@ -127,6 +131,8 @@ struct TabViewContentView:View {
             }
         }
     }
+    
+    
     
     struct CaloriesView:View {
         var caloriesDatas: [CaloriesResponse] = caloriesData
@@ -274,6 +280,7 @@ struct TabViewContentView:View {
             
         }
     }
+  
     
     
     struct LowCarbView:View {
@@ -306,6 +313,9 @@ struct TabViewContentView:View {
             
         }
     }
+    
+    
+  
 }
 
 
